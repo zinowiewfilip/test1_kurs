@@ -1,4 +1,4 @@
-package pl.kurs;
+package pl.kurs.zadanie3;
 
 public abstract class Osoba {
     private String imie;
@@ -16,7 +16,7 @@ public abstract class Osoba {
     public long getPesel(){
         return pesel;
     }
-    public int getPlec(long pesel) {
+    public int getPlec() {
         int i = 0; // 0 = mezczyzna, 1 = kobieta
         if (pesel / 10 % 2 != 0) {
             i = 0;

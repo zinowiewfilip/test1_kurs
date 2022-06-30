@@ -1,4 +1,4 @@
-package pl.kurs;
+package pl.kurs.zadanie3;
 
 public class OsobaRunner {
     public static void main(String[] args) {
@@ -17,8 +17,9 @@ public class OsobaRunner {
         System.out.println(maxDochod);
 
         int ileKobiet = 0;
+
         for (int i = 0; i < osoby.length; i++) {
-            if(osoby[i].getPlec(osoby[i].getPesel()) == 1){
+            if(osoby[i].getPlec() == 1){
                 ileKobiet += 1;
             }
         }

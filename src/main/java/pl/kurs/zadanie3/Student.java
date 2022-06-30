@@ -1,6 +1,8 @@
-package pl.kurs;
+package pl.kurs.zadanie3;
 
-public class Student extends Osoba{
+import pl.kurs.zadanie3.Osoba;
+
+public class Student extends Osoba {
     private String grupa;
     private double stypendium;
 
